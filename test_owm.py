@@ -9,7 +9,7 @@ URL = f'http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid
 response = get(URL)
 
 temp_min = -100
-temp_max = -5
+temp_max = -10
 
 def test_distanse():
   assert haversine((lat, lon), (59.93906, 30.31601)) < 10.0
