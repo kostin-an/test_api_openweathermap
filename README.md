@@ -7,5 +7,6 @@
   
 Для запуска установить зависимости:  
 **pip3 install -r requirements.txt**  
+  
 Запуск:  
 **pytest test_owm.py**
